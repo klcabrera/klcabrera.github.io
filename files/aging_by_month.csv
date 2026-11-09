@@ -1,0 +1,134 @@
+month,side,party,doc,date,due,bucket,open
+2025-01,A/R,Barkside Pet Market,1201,01/06/2025,02/05/2025,Current,1192.00
+2025-01,A/R,Hill Country Hound Supply,1203,01/09/2025,02/08/2025,Current,1773.00
+2025-01,A/R,Cedar Park Canine Co.,1204,01/10/2025,02/09/2025,Current,1236.00
+2025-01,A/R,The Whisker Barrel,1205,01/14/2025,02/13/2025,Current,1278.00
+2025-01,A/R,Lone Star Pet Pantry,1206,01/16/2025,02/15/2025,Current,1372.00
+2025-01,A/R,Barkside Pet Market,1207,01/21/2025,02/20/2025,Current,710.00
+2025-01,A/R,Paws on Congress,1208,01/21/2025,02/05/2025,Current,380.00
+2025-01,A/R,Hill Country Hound Supply,1209,01/23/2025,02/22/2025,Current,845.00
+2025-01,A/P,"Saltmarsh Pet Products, Inc.",SP-25-0112,01/21/2025,02/20/2025,Current,9725.00
+2025-02,A/R,Barkside Pet Market,1210,02/06/2025,03/08/2025,Current,1264.00
+2025-02,A/R,Hill Country Hound Supply,1212,02/10/2025,03/12/2025,Current,1455.00
+2025-02,A/R,Cedar Park Canine Co.,1213,02/10/2025,03/12/2025,Current,1322.00
+2025-02,A/R,The Whisker Barrel,1214,02/14/2025,03/16/2025,Current,1442.00
+2025-02,A/R,Lone Star Pet Pantry,1215,02/18/2025,03/20/2025,Current,1084.00
+2025-02,A/R,Barkside Pet Market,1216,02/20/2025,03/22/2025,Current,572.00
+2025-02,A/R,Paws on Congress,1217,02/21/2025,03/08/2025,Current,592.00
+2025-02,A/R,Hill Country Hound Supply,1218,02/24/2025,03/26/2025,Current,1109.00
+2025-02,A/P,"Saltmarsh Pet Products, Inc.",SP-25-0226,02/05/2025,03/07/2025,Current,1322.50
+2025-02,A/P,"Saltmarsh Pet Products, Inc.",SP-25-0284,02/20/2025,03/22/2025,Current,3867.00
+2025-02,A/P,Marisol Vega,MV-0225,02/28/2025,03/14/2025,Current,640.00
+2025-03,A/R,Hill Country Hound Supply,1221,03/10/2025,04/09/2025,Current,1713.00
+2025-03,A/R,Cedar Park Canine Co.,1222,03/10/2025,04/09/2025,Current,1040.00
+2025-03,A/R,The Whisker Barrel,1223,03/14/2025,04/13/2025,Current,1430.00
+2025-03,A/R,Lone Star Pet Pantry,1224,03/17/2025,04/16/2025,Current,1184.00
+2025-03,A/R,Pflugerville Pet Co.,1225,03/18/2025,04/17/2025,Current,1549.00
+2025-03,A/R,Barkside Pet Market,1226,03/20/2025,04/19/2025,Current,608.00
+2025-03,A/R,Paws on Congress,1227,03/21/2025,04/05/2025,Current,654.00
+2025-03,A/R,Hill Country Hound Supply,1228,03/24/2025,04/23/2025,Current,1007.00
+2025-03,A/P,"Saltmarsh Pet Products, Inc.",SP-25-0379,03/05/2025,04/04/2025,Current,520.00
+2025-03,A/P,"Saltmarsh Pet Products, Inc.",SP-25-0331,03/20/2025,04/19/2025,Current,7225.50
+2025-03,A/P,Marisol Vega,MV-0325,03/31/2025,04/14/2025,Current,720.00
+2025-04,A/R,Barkside Pet Market,1229,04/07/2025,05/07/2025,Current,1256.00
+2025-04,A/R,Hill Country Hound Supply,1231,04/09/2025,05/09/2025,Current,1597.00
+2025-04,A/R,Cedar Park Canine Co.,1232,04/10/2025,05/10/2025,Current,1174.00
+2025-04,A/R,The Whisker Barrel,1233,04/14/2025,05/14/2025,Current,1428.00
+2025-04,A/R,Lone Star Pet Pantry,1234,04/16/2025,05/16/2025,Current,1180.00
+2025-04,A/R,Pflugerville Pet Co.,1235,04/18/2025,05/18/2025,Current,1255.00
+2025-04,A/R,Barkside Pet Market,1236,04/21/2025,05/21/2025,Current,728.00
+2025-04,A/R,Paws on Congress,1237,04/21/2025,05/06/2025,Current,510.00
+2025-04,A/R,Hill Country Hound Supply,1238,04/23/2025,05/23/2025,Current,873.00
+2025-04,A/P,Ironbark Rack & Shelving Co.,IRS-4471,04/07/2025,05/07/2025,Current,6800.00
+2025-04,A/P,"Saltmarsh Pet Products, Inc.",SP-25-0442,04/07/2025,05/07/2025,Current,786.50
+2025-04,A/P,"Saltmarsh Pet Products, Inc.",SP-25-0468,04/21/2025,05/21/2025,Current,9286.00
+2025-04,A/P,Marisol Vega,MV-0425,04/30/2025,05/14/2025,Current,680.00
+2025-05,A/R,Barkside Pet Market,1239,05/06/2025,06/05/2025,Current,1096.00
+2025-05,A/R,Hill Country Hound Supply,1241,05/09/2025,06/08/2025,Current,2033.00
+2025-05,A/R,Cedar Park Canine Co.,1242,05/12/2025,06/11/2025,Current,1502.00
+2025-05,A/R,The Whisker Barrel,1243,05/14/2025,06/13/2025,Current,1232.00
+2025-05,A/R,Pflugerville Pet Co.,1244,05/19/2025,06/18/2025,Current,1443.00
+2025-05,A/R,Barkside Pet Market,1245,05/20/2025,06/19/2025,Current,488.00
+2025-05,A/R,Paws on Congress,1246,05/21/2025,06/05/2025,Current,680.00
+2025-05,A/R,Lone Star Pet Pantry,1247,05/21/2025,06/05/2025,Current,1205.00
+2025-05,A/R,Hill Country Hound Supply,1248,05/23/2025,06/22/2025,Current,923.00
+2025-05,A/P,"Saltmarsh Pet Products, Inc.",SP-25-0515,05/20/2025,06/19/2025,Current,22680.00
+2025-05,A/P,Marisol Vega,MV-0525,05/31/2025,06/14/2025,Current,760.00
+2025-06,A/R,Lone Star Pet Pantry,1247,05/21/2025,06/05/2025,1-30,1205.00
+2025-06,A/R,Barkside Pet Market,1249,06/06/2025,07/06/2025,Current,1140.00
+2025-06,A/R,Hill Country Hound Supply,1250,06/09/2025,07/09/2025,Current,1477.00
+2025-06,A/R,Cedar Park Canine Co.,1252,06/10/2025,07/10/2025,Current,1210.00
+2025-06,A/R,The Whisker Barrel,1253,06/16/2025,07/16/2025,Current,926.00
+2025-06,A/R,Pflugerville Pet Co.,1254,06/18/2025,07/18/2025,Current,1565.00
+2025-06,A/R,Barkside Pet Market,1255,06/20/2025,07/20/2025,Current,700.00
+2025-06,A/R,Hill Country Hound Supply,1256,06/23/2025,07/23/2025,Current,871.00
+2025-06,A/R,Paws on Congress,1257,06/23/2025,07/08/2025,Current,482.00
+2025-06,A/P,Marisol Vega,MV-0625,06/30/2025,07/14/2025,Current,700.00
+2025-07,A/R,Lone Star Pet Pantry,1247,05/21/2025,06/05/2025,31-60,1205.00
+2025-07,A/R,Barkside Pet Market,1258,07/07/2025,08/06/2025,Current,1316.00
+2025-07,A/R,Hill Country Hound Supply,1260,07/09/2025,08/08/2025,Current,2017.00
+2025-07,A/R,Cedar Park Canine Co.,1261,07/10/2025,08/09/2025,Current,1478.00
+2025-07,A/R,The Whisker Barrel,1262,07/14/2025,08/13/2025,Current,1478.00
+2025-07,A/R,Pflugerville Pet Co.,1263,07/18/2025,08/17/2025,Current,1201.00
+2025-07,A/R,Barkside Pet Market,1264,07/21/2025,08/20/2025,Current,834.00
+2025-07,A/R,Paws on Congress,1265,07/21/2025,08/05/2025,Current,524.00
+2025-07,A/R,Hill Country Hound Supply,1266,07/23/2025,08/22/2025,Current,973.00
+2025-07,A/P,Marisol Vega,MV-0725,07/31/2025,08/14/2025,Current,720.00
+2025-08,A/R,Lone Star Pet Pantry,1247,05/21/2025,06/05/2025,61-90,1205.00
+2025-08,A/R,Barkside Pet Market,1267,08/06/2025,09/05/2025,Current,1168.00
+2025-08,A/R,Hill Country Hound Supply,1269,08/11/2025,09/10/2025,Current,1673.00
+2025-08,A/R,Cedar Park Canine Co.,1270,08/11/2025,09/10/2025,Current,1042.00
+2025-08,A/R,The Whisker Barrel,1271,08/14/2025,09/13/2025,Current,1230.00
+2025-08,A/R,Pflugerville Pet Co.,1272,08/18/2025,09/17/2025,Current,1329.00
+2025-08,A/R,Barkside Pet Market,1273,08/20/2025,09/19/2025,Current,644.00
+2025-08,A/R,Paws on Congress,1274,08/21/2025,09/05/2025,Current,706.00
+2025-08,A/R,Hill Country Hound Supply,1275,08/25/2025,09/24/2025,Current,645.00
+2025-08,A/P,"Saltmarsh Pet Products, Inc.",SP-25-0836,08/20/2025,09/19/2025,Current,11500.00
+2025-08,A/P,Marisol Vega,MV-0825,08/31/2025,09/14/2025,Current,680.00
+2025-09,A/R,Lone Star Pet Pantry,1247,05/21/2025,06/05/2025,Over 90,1205.00
+2025-09,A/R,Barkside Pet Market,1276,09/08/2025,10/08/2025,Current,1206.00
+2025-09,A/R,Hill Country Hound Supply,1278,09/09/2025,10/09/2025,Current,1819.00
+2025-09,A/R,Cedar Park Canine Co.,1279,09/10/2025,10/10/2025,Current,1546.00
+2025-09,A/R,The Whisker Barrel,1280,09/15/2025,10/15/2025,Current,1474.00
+2025-09,A/R,Pflugerville Pet Co.,1281,09/18/2025,10/18/2025,Current,1509.00
+2025-09,A/R,Barkside Pet Market,1282,09/22/2025,10/22/2025,Current,838.00
+2025-09,A/R,Paws on Congress,1283,09/22/2025,10/07/2025,Current,664.00
+2025-09,A/R,Hill Country Hound Supply,1284,09/23/2025,10/23/2025,Current,1081.00
+2025-09,A/P,"Saltmarsh Pet Products, Inc.",SP-25-0973,09/22/2025,10/22/2025,Current,6803.00
+2025-09,A/P,Marisol Vega,MV-0925,09/30/2025,10/14/2025,Current,740.00
+2025-10,A/R,Pflugerville Pet Co.,1285,10/03/2025,11/02/2025,Current,635.00
+2025-10,A/R,Barkside Pet Market,1286,10/06/2025,11/05/2025,Current,1252.00
+2025-10,A/R,Hill Country Hound Supply,1288,10/09/2025,11/08/2025,Current,1793.00
+2025-10,A/R,Cedar Park Canine Co.,1289,10/10/2025,11/09/2025,Current,1102.00
+2025-10,A/R,The Whisker Barrel,1290,10/14/2025,11/13/2025,Current,1504.00
+2025-10,A/R,Barkside Pet Market,1291,10/20/2025,11/19/2025,Current,538.00
+2025-10,A/R,Pflugerville Pet Co.,1292,10/20/2025,11/19/2025,Current,1331.00
+2025-10,A/R,Paws on Congress,1293,10/21/2025,11/05/2025,Current,470.00
+2025-10,A/R,Hill Country Hound Supply,1294,10/23/2025,11/22/2025,Current,903.00
+2025-10,A/R,Cedar Park Canine Co.,1295,10/24/2025,11/23/2025,Current,472.00
+2025-10,A/R,The Whisker Barrel,1296,10/27/2025,11/26/2025,Current,540.00
+2025-10,A/P,"Saltmarsh Pet Products, Inc.",SP-25-1020,10/20/2025,11/19/2025,Current,21820.50
+2025-10,A/P,Marisol Vega,MV-1025,10/31/2025,11/14/2025,Current,700.00
+2025-11,A/R,Pflugerville Pet Co.,1297,11/03/2025,12/03/2025,Current,575.00
+2025-11,A/R,Barkside Pet Market,1298,11/06/2025,12/06/2025,Current,1264.00
+2025-11,A/R,Hill Country Hound Supply,1300,11/10/2025,12/10/2025,Current,1757.00
+2025-11,A/R,Cedar Park Canine Co.,1301,11/10/2025,12/10/2025,Current,1218.00
+2025-11,A/R,The Whisker Barrel,1302,11/14/2025,12/14/2025,Current,1284.00
+2025-11,A/R,Pflugerville Pet Co.,1303,11/18/2025,12/18/2025,Current,1267.00
+2025-11,A/R,Barkside Pet Market,1304,11/20/2025,12/20/2025,Current,556.00
+2025-11,A/R,Paws on Congress,1305,11/21/2025,12/06/2025,Current,592.00
+2025-11,A/R,Hill Country Hound Supply,1306,11/24/2025,12/24/2025,Current,981.00
+2025-11,A/R,Cedar Park Canine Co.,1307,11/24/2025,12/24/2025,Current,608.00
+2025-11,A/R,The Whisker Barrel,1308,11/28/2025,12/28/2025,Current,678.00
+2025-11,A/P,"Saltmarsh Pet Products, Inc.",SP-25-1157,11/20/2025,12/20/2025,Current,525.00
+2025-11,A/P,Marisol Vega,MV-1125,11/30/2025,12/14/2025,Current,800.00
+2025-12,A/R,Pflugerville Pet Co.,1309,12/03/2025,01/02/2026,Current,549.00
+2025-12,A/R,Barkside Pet Market,1310,12/08/2025,01/07/2026,Current,1050.00
+2025-12,A/R,Hill Country Hound Supply,1312,12/09/2025,01/08/2026,Current,1985.00
+2025-12,A/R,Cedar Park Canine Co.,1313,12/10/2025,01/09/2026,Current,1390.00
+2025-12,A/R,Pflugerville Pet Co.,1315,12/18/2025,01/17/2026,Current,1017.00
+2025-12,A/R,Barkside Pet Market,1316,12/22/2025,01/21/2026,Current,620.00
+2025-12,A/R,Paws on Congress,1317,12/22/2025,01/06/2026,Current,618.00
+2025-12,A/R,Hill Country Hound Supply,1318,12/23/2025,01/22/2026,Current,1013.00
+2025-12,A/P,"Saltmarsh Pet Products, Inc.",SP-25-1294,12/22/2025,01/21/2026,Current,16454.00
+2025-12,A/P,Marisol Vega,MV-1225,12/31/2025,01/14/2026,Current,760.00
