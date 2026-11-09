@@ -1,0 +1,63 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Mockup A · Case study</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:dark;--bg:#0e0f11;--ink:#f2efe8;--mute:#9b9890;--line:#25272b;--acc:#f0b357;--good:#7fd1a6;--bad:#ef8a7a}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 Inter,system-ui,sans-serif}
+.w0{max-width:1080px;margin:0 auto;padding:0 20px}
+.top{display:flex;justify-content:space-between;padding:22px 0;font-size:.85rem;color:var(--mute);letter-spacing:.06em;text-transform:uppercase}
+.hero{padding:90px 0 70px} .hero h1{font-family:'Instrument Serif',Georgia,serif;font-weight:400;font-size:clamp(3rem,8vw,6.4rem);line-height:.98;margin:0}
+.hero h1 em{color:var(--acc)} .hero p{color:var(--mute);max-width:560px;font-size:1.1rem;margin:26px 0 0}
+.strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.strip div{padding:28px 0} .strip b{display:block;font-family:'Instrument Serif',serif;font-weight:400;font-size:3.6rem;line-height:1} .strip span{color:var(--mute);font-size:.9rem}
+h2{font-family:'Instrument Serif',serif;font-weight:400;font-size:2.6rem;margin:90px 0 8px} .sub{color:var(--mute);margin:0 0 30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+.c{background:var(--bg);padding:28px;transition:background .25s} .c:hover{background:#16181b} .num{font-family:'Instrument Serif',serif;font-size:2.2rem;color:var(--acc)} .num span{font-family:Inter;font-size:.75rem;color:var(--mute);margin-left:10px;letter-spacing:.06em;text-transform:uppercase}
+.c h3{font-size:1.15rem;font-weight:600;margin:6px 0 16px} .row{display:grid;grid-template-columns:80px 1fr;gap:10px;font-size:.93rem} .row p{margin:0 0 10px;color:#cfcbc2}
+.w{color:var(--bad);font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;padding-top:3px} .d{color:var(--good);font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;padding-top:3px}
+.btn{display:inline-block;margin-top:34px;padding:14px 22px;border:1px solid var(--ink);border-radius:40px;color:var(--ink);text-decoration:none;font-weight:500}
+footer{color:var(--mute);font-size:.8rem;padding:80px 0 40px}
+.mocknote{position:fixed;bottom:12px;right:12px;background:var(--acc);color:#111;font:600 .72rem Inter;padding:6px 10px;border-radius:6px}
+</style></head><body><div class="w0">
+<div class="top"><span>Kian · US Bookkeeper</span><span>Work · About · Contact</span></div>
+<section class="hero"><h1 class="split">Books that close clean, <em>every month.</em></h1>
+<p>A full year of bookkeeping for an e-commerce company, from the first bank line to the CPA package. Everything below ties to an independent answer key.</p>
+<a class="btn" href="#caught">See what was caught ↓</a></section>
+<div class="strip rv"><div><b data-count>954</b><span>transactions recorded</span></div><div><b data-count>36/36</b><span>reconciliations at $0.00</span></div><div><b data-count>15</b><span>problems caught that nobody flagged</span></div><div><b data-count>12</b><span>monthly closes plus year-end</span></div></div>
+<h2 id="caught">What was caught</h2><p class="sub">The mistakes that were waiting in the documents, and what was done instead.</p>
+<div class="grid"><article class="c rv"><div class="num">01<span>May 2025</span></div><h3>A $1,180 customer check bounced.</h3>
+<div class="row"><b class="w">First pass</b><p>Delete the payment so the invoice looks unpaid.</p></div><div class="row"><b class="d">Done</b><p>Kept the history. Re-billed the store $1,180 plus the $25 returned-check fee, and booked the bank's $12 fee.</p></div></article><article class="c rv"><div class="num">02<span>Jul 2025</span></div><h3>A $5,000 line on the bank statement just said DEPOSIT.</h3>
+<div class="row"><b class="w">First pass</b><p>Call it income.</p></div><div class="row"><b class="d">Done</b><p>Matched it to the savings statement: a transfer between the owner's own accounts. Not income.</p></div></article><article class="c rv"><div class="num">03<span>Mar 2025</span></div><h3>An invoice's lines added to $455, but the total said $500.</h3>
+<div class="row"><b class="w">First pass</b><p>Enter $500.</p></div><div class="row"><b class="d">Done</b><p>Footed the lines, asked the owner, entered $455. The card charge confirmed it.</p></div></article><article class="c rv"><div class="num">04<span>Jan 2025</span></div><h3>A $61.40 card charge had no receipt.</h3>
+<div class="row"><b class="w">First pass</b><p>Let the bank rule file it and move on.</p></div><div class="row"><b class="d">Done</b><p>Counted receipts against card lines, found the gap, asked the owner. It was a re-shipped lost parcel.</p></div></article></div>
+<footer>Prototype. Every case company is fictional.</footer></div><a class='mocknote' href='index.html' style='text-decoration:none'>MOCKUP · real case numbers · ← back to all three</a><style>
+.js-anim .rv{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
+.js-anim .rv.in{opacity:1;transform:none}
+.js-anim .gb{transform-box:fill-box;transform-origin:bottom;transform:scaleY(0);transition:transform .9s cubic-bezier(.2,.7,.2,1);transition-delay:calc(var(--i)*60ms)}
+.js-anim .in .gb{transform:scaleY(1)}
+.js-anim .recs i{transform:scale(.2);opacity:0;transition:transform .4s cubic-bezier(.3,1.6,.5,1),opacity .3s;transition-delay:calc(var(--i)*22ms)}
+.js-anim .in .recs i{transform:none;opacity:1}
+.js-anim .split .wd{display:inline-block;opacity:0;transform:translateY(.4em);animation:up .8s cubic-bezier(.2,.7,.2,1) forwards;animation-delay:calc(var(--i)*70ms)}
+@keyframes up{to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.js-anim .rv,.js-anim .gb,.js-anim .recs i,.js-anim .split .wd{opacity:1!important;transform:none!important;animation:none!important;transition:none!important}}
+</style>
+<script>
+(function(){
+var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+document.documentElement.classList.add('js-anim');
+document.querySelectorAll('.split').forEach(function(h){var i=0;
+  (function walk(n){[].slice.call(n.childNodes).forEach(function(c){
+    if(c.nodeType===3){var f=document.createDocumentFragment();c.textContent.split(/(\s+)/).forEach(function(t){
+      if(!t.trim()){f.appendChild(document.createTextNode(t));return;}var s=document.createElement('span');s.className='wd';s.style.setProperty('--i',i++);s.textContent=t;f.appendChild(s);});
+      c.parentNode.replaceChild(f,c);} else walk(c);});})(h);});
+document.querySelectorAll('.recs i').forEach(function(x,i){x.style.setProperty('--i',i);});
+function count(el){var m=el.textContent.match(/([\d,]+(?:\.\d+)?)/);if(!m||reduce)return;var end=parseFloat(m[1].replace(/,/g,'')),pre=el.textContent.slice(0,m.index),post=el.textContent.slice(m.index+m[1].length),t0=null,dec=(m[1].split('.')[1]||'').length;
+  function step(t){if(!t0)t0=t;var p=Math.min(1,(t-t0)/1200),e=1-Math.pow(1-p,3);el.textContent=pre+(end*e).toLocaleString('en-US',{minimumFractionDigits:dec,maximumFractionDigits:dec})+post;if(p<1)requestAnimationFrame(step);}
+  requestAnimationFrame(step);}
+var io=new IntersectionObserver(function(es){es.forEach(function(en){if(!en.isIntersecting)return;en.target.classList.add('in');
+  en.target.querySelectorAll('[data-count]').forEach(count);if(en.target.hasAttribute('data-count'))count(en.target);io.unobserve(en.target);});},{threshold:.15});
+document.querySelectorAll('.rv').forEach(function(el){io.observe(el);});
+function show(el,d){setTimeout(function(){if(el.classList.contains('in'))return;el.classList.add('in');el.querySelectorAll('[data-count]').forEach(count);if(el.hasAttribute('data-count'))count(el);io.unobserve(el);},d);}
+var k=0;document.querySelectorAll('.rv').forEach(function(el){if(el.getBoundingClientRect().top<innerHeight)show(el,80+120*k++);});
+setTimeout(function(){document.querySelectorAll('.rv').forEach(function(el){show(el,0);});},1500);
+})();
+</script></body></html>

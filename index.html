@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kian Portfolio Mockups</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout: one column chooser, three large tappable rows, each a preview swatch of its mockup */
+:root{--bg:#f7f6f3;--fg:#17181a;--mute:#66686d;--line:#e3e1db;--card:#ffffff;--accent:#1f4fd1;
+  --display:Newsreader,Georgia,serif;--body:Inter,system-ui,sans-serif}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#141518;--fg:#ecebe6;--mute:#a1a3a8;--line:#2b2d32;--card:#1c1e22;--accent:#8fb0ff;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#141518;--fg:#ecebe6;--mute:#a1a3a8;--line:#2b2d32;--card:#1c1e22;--accent:#8fb0ff;color-scheme:dark}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:48px 64px}
+main{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+h1{font-family:var(--display);font-weight:500;font-size:2.3rem;line-height:1.1;margin:0;text-wrap:balance}
+.lede{color:var(--mute);margin:0;max-width:60ch}
+.list{display:flex;flex-direction:column;gap:14px}
+a.opt{display:grid;grid-template-columns:120px 1fr;gap:18px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;text-decoration:none;color:var(--fg)}
+a.opt:hover,a.opt:focus-visible{border-color:var(--accent);outline:none}
+.sw{height:84px;border-radius:10px;display:flex;flex-direction:column;justify-content:flex-end;padding:10px;font-size:.7rem;font-weight:600;letter-spacing:.06em}
+.sw.a{background:#0e0f11;color:#f0b357;font-family:Georgia,serif;font-size:1.1rem;letter-spacing:0;font-style:italic}
+.sw.b{background:linear-gradient(160deg,#1b2a55,#0b1020);color:#3ccf91}
+.sw.c{background:#fff;color:#1f4fd1;border:1px solid #ececec}
+.opt h2{font-family:var(--display);font-weight:500;font-size:1.3rem;margin:0}
+.opt p{margin:2px 0 0;color:var(--mute);font-size:.92rem}
+.foot{color:var(--mute);font-size:.82rem}
+@media (max-width:460px){a.opt{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main>
+<div>
+<h1>Three directions for your portfolio</h1>
+<p class="lede">Same case, same numbers, three looks. Open each, scroll it on your phone and on a laptop, then pick one, or mix parts of them.</p>
+</div>
+<div class="list">
+<a class="opt" href="a.html"><div class="sw a">every month.</div><div><h2>A · Case study</h2><p>Dark, big type. The problems that were caught are the centerpiece.</p></div></a>
+<a class="opt" href="b.html"><div class="sw b">● 36 / 36 RECONCILED</div><div><h2>B · Dashboard</h2><p>The top of the page is a finance dashboard for the case.</p></div></a>
+<a class="opt" href="c.html"><div class="sw c">KIAN · RESUME</div><div><h2>C · Clean</h2><p>White and minimal. You first, the case as one card.</p></div></a>
+</div>
+<p class="foot">Mockups only: the top of each page plus one section. Prototype. Every case company is fictional.</p>
+</main>
+
+</body>
+</html>
