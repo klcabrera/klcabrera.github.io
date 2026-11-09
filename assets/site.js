@@ -84,13 +84,24 @@
 
   // chart tooltips
   var tip = document.getElementById("tip");
-  document.querySelectorAll(".bar").forEach(function (b) {
+  document.querySelectorAll(".chart .cbar").forEach(function (b) {
     function show(x, y) { tip.textContent = b.getAttribute("data-tip"); tip.style.left = (x + 12) + "px"; tip.style.top = (y + 12) + "px"; tip.style.opacity = 1; }
     b.addEventListener("mousemove", function (ev) { show(ev.clientX, ev.clientY); });
     b.addEventListener("focus", function () { var r = b.getBoundingClientRect(); show(r.left, r.top); });
     b.addEventListener("mouseleave", function () { tip.style.opacity = 0; });
     b.addEventListener("blur", function () { tip.style.opacity = 0; });
   });
+
+  // scroll-spy: on the home page, light up Home / Skills / Case Studies as their section scrolls past
+  if (document.body.classList.contains("is-home")) {
+    var spyLinks = document.querySelectorAll("[data-spy]"), ids = ["skills", "work"];
+    function spyUpdate() {
+      var cur = "top", y = window.scrollY + 140;
+      ids.forEach(function (id) { var el = document.getElementById(id); if (el && el.offsetTop <= y && el.offsetTop + el.offsetHeight > y) cur = id; });
+      spyLinks.forEach(function (l) { l.classList.toggle("on", l.getAttribute("data-spy") === cur); });
+    }
+    window.addEventListener("scroll", spyUpdate, { passive: true }); spyUpdate();
+  }
 
   // page fade-out on internal navigation
   if (!still) document.addEventListener("click", function (ev) {
